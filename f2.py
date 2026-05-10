@@ -1,0 +1,21 @@
+file = open("sample.txt", "w")
+file.write("Coding is the language used to develop apps and software. \n")
+file.write("It helps computers understand instructions. \n")
+file.write("Programming languages make coding easier. /n")
+file.close()
+
+file = open("sample.txt", "r")
+print("Reading Full File:")
+print(file.read())
+file.close()
+
+file = open("sample.txt", "r")
+print("Reading Line by Line:")
+print(file.readline())
+print(file.readline())
+file.close()
+
+file = open("sample.txt", "r")
+print("Reading Using readlines():")
+print(file.readlines())
+file.close()
